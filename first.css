@@ -1,0 +1,118 @@
+h1 {
+    
+    font-size:100px;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.487);
+    height:100px;
+    margin:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+  }
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3748;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 0 8px;
+    color: #718096;
+    transition: color 0.2s;
+  }
+  nav a:hover {
+    color: #2d3748;
+  }
+  section {
+    padding: 80px 16px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2d3748;
+  }
+  .hero-subtitle {
+    color: #718096;
+    margin-top: 16px;
+  }
+  .button {
+    margin-top: 24px;
+    padding: 12px 32px;
+    background-color: #2d3748;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  .button:hover {
+    background-color: #1a202c;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+  }
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-content {
+    padding: 16px;
+  }
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d3748;
+  }
+  .card-text {
+    margin-top: 8px;
+    color: #718096;
+  }
+  footer {
+    background-color: #2d3748;
+    padding: 24px 16px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .footer-icons a {
+    margin: 0 8px;
+    color: #ffffff;
+    transition: color 0.2s;
+  }
+  .footer-icons a:hover {
+    color: #a0aec0;
+  }
