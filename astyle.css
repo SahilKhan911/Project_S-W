@@ -28,14 +28,14 @@
 .main p a{
     text-decoration: none;
 }
-.sec-2 {
+.story {
     margin-top: 80px;
     text-align: center;
 }
-.sec-2 h1{
+.story h1{
     color: rgb(34, 34, 34);
 }
-.sec-2 p{
+.story p{
     margin-top: 20px;
     font-size: 20px;
     font-weight: 500;
