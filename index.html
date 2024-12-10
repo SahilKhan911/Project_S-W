@@ -1,188 +1,51 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fashion Look Book</title>
-    <style>
-      body {
-        font-family: 'Roboto', Arial, sans-serif;
-        background-color: #f7fafc;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background-color: #ffffff;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 16px;
-      }
-      .header-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 16px 0;
-      }
-      .header-title {
-        font-size: 24px;
-        font-weight: bold;
-        color: #2d3748;
-      }
-      nav a {
-        text-decoration: none;
-        margin: 0 8px;
-        color: #718096;
-        transition: color 0.2s;
-      }
-      nav a:hover {
-        color: #2d3748;
-      }
-      section {
-        padding: 80px 16px;
-      }
-      .text-center {
-        text-align: center;
-      }
-      .hero-title {
-        font-size: 36px;
-        font-weight: bold;
-        color: #2d3748;
-      }
-      .hero-subtitle {
-        color: #718096;
-        margin-top: 16px;
-      }
-      .button {
-        margin-top: 24px;
-        padding: 12px 32px;
-        background-color: #2d3748;
-        color: #ffffff;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-weight: bold;
-        transition: background-color 0.2s;
-      }
-      .button:hover {
-        background-color: #1a202c;
-      }
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 24px;
-        margin-top: 40px;
-      }
-      .card {
-        background-color: #ffffff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        overflow: hidden;
-      }
-      .card img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-      }
-      .card-content {
-        padding: 16px;
-      }
-      .card-title {
-        font-size: 18px;
-        font-weight: bold;
-        color: #2d3748;
-      }
-      .card-text {
-        margin-top: 8px;
-        color: #718096;
-      }
-      footer {
-        background-color: #2d3748;
-        padding: 24px 16px;
-        color: #ffffff;
-        text-align: center;
-      }
-      .footer-icons a {
-        margin: 0 8px;
-        color: #ffffff;
-        transition: color 0.2s;
-      }
-      .footer-icons a:hover {
-        color: #a0aec0;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div class="container header-content">
-        <div class="header-title">Fashion Look Book</div>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">Collections</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
-      </div>
-    </header>
-    <section class="text-center">
-      <h1 class="hero-title">Discover the Latest Trends</h1>
-      <p class="hero-subtitle">
-        Explore our curated collection of the latest fashion trends and styles.
-      </p>
-      <button class="button">Explore Now</button>
-    </section>
-    <section>
-      <div class="container text-center">
-        <h2 class="hero-title">Featured Collections</h2>
-        <div class="grid">
-          <div class="card">
-            <img
-              src="https://storage.googleapis.com/a1aa/image/i6TMkeheZUoF109F19w3jBpN4xcrioiqJSCObHMtSOJsdO4TA.jpg"
-              alt="Urban Chic"
-            />
-            <div class="card-content">
-              <h3 class="card-title">Urban Chic</h3>
-              <p class="card-text">
-                Modern and stylish outfits perfect for the city life.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="https://storage.googleapis.com/a1aa/image/DO7f1qYqDevJPUJmF9UAwXZ6Eih7VTZoCBwSGh7fRsOg7cwnA.jpg"
-              alt="Summer Vibes"
-            />
-            <div class="card-content">
-              <h3 class="card-title">Summer Vibes</h3>
-              <p class="card-text">
-                Light and breezy styles for the perfect summer look.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="https://storage.googleapis.com/a1aa/image/rCGZg34t6Gq9K5ajyr7vs07mGOAfDfxVt4FqLfdAK6Vm7cwnA.jpg"
-              alt="Winter Warmth"
-            />
-            <div class="card-content">
-              <h3 class="card-title">Winter Warmth</h3>
-              <p class="card-text">
-                Stay warm and stylish with our winter collection.
-              </p>
-            </div>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+
         </div>
-      </div>
-    </section>
-    <footer>
-      <p>© 2023 Fashion Look Book. All rights reserved.</p>
-      <div class="footer-icons">
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
-        <a href="#">Pinterest</a>
-      </div>
-    </footer>
-  </body>
+        <li>
+            <ul>
+                Mens
+            </ul>
+            <ul>
+                Women
+            </ul>
+            <ul>
+                Kids
+            </ul>
+        </li>
+
+    </div>
+   <div class="herosection">
+    <div class="title"><p style="font-weight: 750;  ">Dash</p><p style="font-weight: 200;  ">Fash</p></div>
+    </div>
+    
+    
+    <div class="text">
+        <h1 style="padding-right: 50px;">Discover Your Style. Define Your Statement.</h1>
+    </div>
+
+
+
+
+
+
+</body>
 </html>
