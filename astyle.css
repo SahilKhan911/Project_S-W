@@ -78,14 +78,14 @@
     text-align: center;
 }
 
-.last-2{
+.last{
     background-color: gray;
     text-align: center;
     color: white;
     height: 50px;
 
 }
-.last-2 h6{
+.last h6{
     padding-top: 12px;
     font-weight: 400;
     justify-content: center;
