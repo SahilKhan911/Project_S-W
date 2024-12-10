@@ -14,7 +14,7 @@
         align-items: center;
 
     }
-    .navbar li ul{
+    .navbar li ul a{
         display: inline-flex;
         color: aliceblue;
         float: right;
@@ -24,8 +24,8 @@
         font-weight: bold;
 
     }
-    .navbar li ul:hover{
-        color: rgb(20, 102, 56);
+    .navbar li ul a:hover{
+        color: rgb(255, 242, 0);
         transition: all;
     }
     .herosection{
