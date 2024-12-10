@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.main a:hover{
+    color: rgb(255,242,0)
+}
 body {
     font-family: Arial, sans-serif;
     background-color:grey;
